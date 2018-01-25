@@ -1,0 +1,187 @@
+ /*header  section*/
+ /*top menu section*/
+
+ .top-contact p {
+     color: #111111;
+     display: inline-block;
+     margin-right: 40px;
+ }
+
+ .top-menu {
+     overflow: hidden;
+     display: block;
+     margin: 15px 0;
+     position: relative;
+     font-weight: 400;
+ }
+
+ .top-time {
+     color: #111111;
+     text-align: right;
+     float: right;
+ }
+
+ .top-contact {
+     width: 58%;
+     text-align: left;
+     float: left;
+     padding-top: 8px;
+ }
+
+
+ .header-area:before {
+     position: absolute;
+     content: "";
+     width: 100%;
+     height: 1px;
+     background: #daddee;
+     bottom: 0px;
+     z-index: 999999999999;
+ }
+
+ .top-menu span {
+     color: #0288D1;
+     margin-right: 5px;
+     font-size: 16px;
+ }
+ .top-contact a {
+    color: #111111;
+}
+.top-time .social-icon-area .footer-icon a {
+    background: #1DE9B6;
+}
+ /*top menu end*/
+ /*main menu section */
+ /*manu*/
+
+ nav.navbar.navbar-area.sticky {
+     background: #97CAF9;
+     position: fixed;
+     transition: all 0.2s ease-in;
+     padding: 0;
+     width: 100%;
+     top: -21px;
+     z-index: 999999;
+     border-radius: 0px;
+     padding-top: 15px
+ }
+
+ li.active-pr a {
+      color: #111111 !important; 
+ }
+ .nav>li>a:focus {
+     background-color: transparent;
+ }
+
+ .menu li {
+     border-radius: 4px;
+     margin-right: 5px;
+     position: relative;
+     /* display: inline-block; */
+ }
+
+ .header-area {
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: 9;
+     width: 100%;
+ }
+
+ .menu li a {
+     color: #111111;
+     text-transform: uppercase;
+     padding: 12px;
+     border-radius: 4px;
+      transition: 0.4s  ease-in;
+
+ }
+
+ .header-area {
+     overflow: hidden;
+     position: relative;
+     display: block;
+ }
+
+ .menu {
+     margin-top: 13px;
+ }
+
+ .menu li a:hover {
+      color: #111111; 
+     background: #FFF3E0;
+    
+
+     
+
+ }
+
+ .active-pr {
+     background: #FFF3E0; 
+     /* color:#fff; */
+ }
+
+ .navbar-brand {
+     height: auto;
+ }
+ .navbar-area {
+    background: #97CAF9;
+}
+ /* end header section*/
+ /*nepal result section start*/
+ .n-text-c{
+     text-align: center;
+ }
+ .teer-result-section tr th{
+    border: 1px solid #000 !important;
+    font-size: 20px;
+}
+.t-bg {
+    background: #3fd5ba;
+}
+.teer-result-section {
+    padding: 50px;
+}
+/*nepal result section end */
+/*teer photo section area start */
+.teer-single-photo img {
+    width: 100%;
+    height: 100%;
+}
+
+.teer-single-photo {
+    margin-bottom: 30px;
+}
+/*footer section */
+/*foooter social icon */
+
+.footer-icon a {
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 33px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-right: 20px;
+    transition: 0.4s;
+}
+
+.footer-icon a:hover {
+    color: #3B3B3B;
+    background: #fff;
+    border: 1px solid #fff;
+}
+.footer-section {
+    padding: 20px 0;
+    background: linear-gradient(to right, rgba(55, 70, 149, 1),rgba(21, 157, 217, 1));
+}
+
+.social-icon-area {
+    text-align: center;
+}
+.footer-text {
+    padding-top: 10px;
+    font-size: 16px;
+    color: #ddd;
+}
