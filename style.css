@@ -129,6 +129,10 @@
 }
  /* end header section*/
  /*nepal result section start*/
+ .teer-date{
+    text-align: center;
+    padding-bottom: 30px
+ }
  .n-text-c{
      text-align: center;
  }
@@ -144,6 +148,9 @@
 }
 /*nepal result section end */
 /*teer photo section area start */
+.sectionp.teer-photo-area {
+    padding: 0;
+}
 .teer-single-photo img {
     width: 100%;
     height: 100%;
@@ -152,6 +159,132 @@
 .teer-single-photo {
     margin-bottom: 30px;
 }
+/*teer photo section end */
+/*map and contact section */
+/*contact section */
+.contact-section
+ .form input {
+    width: 80%;
+    margin: 10px 0;
+    padding: 8px 0;
+    padding-left: 10px;
+    border: 1px solid #B2DFDB;
+}
+
+.contact-section .form textarea {
+    width: 80%;
+    height: 100px;
+    resize: none;
+    padding: 10px;
+    border: 1px solid #B2DFDB;
+}
+
+.contact-section .form input::-webkit-input-placeholder,.contact-section .form input::-moz-placeholder,.contact-section .form input::placeholder {
+    color: #9E9E9E;
+    text-transform: capitalize;
+}
+.contact-section .form input::placeholder{
+     text-transform:capitalize;
+     color: #9E9E9E;
+}
+.contact-section .form textarea::placeholder{
+     text-transform:capitalize;
+     color: #9E9E9E; 
+}
+.contact-section .form textarea:focus{
+     outline:none;
+}
+.form-header h2 {
+    color: #0b1628;
+    font-size: 35px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.form-header h2:before {
+    position: absolute;
+    content: "";
+    width: 176px;
+    height: 1.25px;
+    background: #111111;
+    top: 37%;
+    left: 180px;
+}
+.f-button{
+    width: 110px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    background: #2196F3;
+    margin-top: 20px;
+    margin-bottom: 42px;
+}
+.contact-section {
+    box-shadow: 0px 10px 14px -5px rgba(0, 0, 0, 0.2);
+}
+/*address area */
+.address-area h2 {
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+
+.address-area p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.contact-add span {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 4px;
+    margin-right: 20px;
+    background: linear-gradient(to right, #b36bf0, #fd6b6b);
+    color: #fff;
+    font-size: 20px;
+}
+
+.contact-add {
+    padding-top: 40px;
+}
+
+.contact-add li {
+    padding-bottom: 25px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.address-area {
+    color: #fefefe;
+}
+
+.address-area {
+    padding-left: 90px;
+}
+
+.contactus-section {
+    position: relative;
+}
+
+.address-area:before {
+    position: absolute;
+    width: 100%;
+    content: "";
+    height: 100%;
+    background: #983cff;
+    right: 0;
+    z-index: -1
+}
+
+.contactus-section .col-sm-6:first-child {
+    padding-right: 0;
+}
+
+/*contact section end */
+
 /*footer section */
 /*foooter social icon */
 
@@ -182,6 +315,41 @@
 }
 .footer-text {
     padding-top: 10px;
-    font-size: 16px;
+    font-size: 18px;
     color: #ddd;
 }
+
+/*common number css start */
+
+.comon-number-text-area {
+    text-align: center;
+}
+
+.comon-number-text-area h2:nth-child(2) {
+    font-size: 20px;
+    padding-top: 20px;
+}
+.doot {
+    width: 60%;
+    height: 1.3px;
+    background: #111;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 36px;
+}
+.common-num-note
+ h4 {
+    padding-top: 20px;
+}
+
+/*dreem number css start*/
+.dreem-text{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.dreem-tab tr td {
+    border: 1px solid #111 !important;
+    text-align: center;
+    padding: 5px;
+}
+/*previous number css */

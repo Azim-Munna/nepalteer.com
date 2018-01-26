@@ -1,3 +1,16 @@
+    (function($) {
+    "use strict" 
+
+
+// js menu 
+ 
+         $('#one-page-nav').onePageNav({
+        scrollSpeed: 750,
+        scrollThreshold: 0.5,
+
+    });
+
+
      // menu actiove 
      $(".menu li").on('click', function() {
          $(this).addClass("active-pr").siblings("li").removeClass("active-pr");
@@ -27,3 +40,4 @@
          $(".navbar-collapse ul li a").on('click', function() {
         $(".navbar-collapse").removeClass("in");
     });
+})(jQuery);
