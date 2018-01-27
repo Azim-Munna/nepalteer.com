@@ -221,6 +221,7 @@
 }
 .contact-section {
     box-shadow: 0px 10px 14px -5px rgba(0, 0, 0, 0.2);
+    /* padding-bottom: 0px; */
 }
 /*address area */
 .address-area h2 {

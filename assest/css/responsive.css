@@ -1,0 +1,205 @@
+@media all and (max-width: 767px) {
+/*menu section */
+
+.navbar-toggle .icon-bar {
+	background: #fff;
+	width: 25px;
+}
+
+.navbar-toggle {
+    margin-top: 15px;
+}
+
+.footer-icon a {
+    margin-right: 5px;
+}
+
+.teer-result-section {
+    padding: 20px;
+}
+
+.teer-date {
+    padding-bottom: 20px;
+}
+
+.teer-photo-area .col-sm-4 {
+    width: 50%;
+    float: left;
+}
+
+.address-area {
+    padding-left: 20px;
+}
+
+.sectionp {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.address-area h2 {
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+.footer-section
+ .col-sm-6 {
+    width: 50%;
+    float: left;
+}
+
+.footer-text {
+    font-size: 16px;
+}
+
+.menu li a {
+    text-align: center;
+}
+
+.navbar-toggle {
+    margin-top: 15px;
+}
+
+.footer-icon a {
+    margin-right: 5px;
+}
+
+.teer-result-section {
+    padding: 20px 0;
+}
+
+.teer-date {
+    padding-bottom: 20px;
+}
+
+.teer-photo-area .col-sm-4 {
+    width: 50%;
+    float: left;
+}
+.address-area {
+    padding-left: 20px;
+}
+
+
+.address-area h2 {
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+.footer-section
+ .col-sm-6 {
+    width: 50%;
+    float: left;
+}
+
+.footer-text {
+    font-size: 16px;
+}
+
+.f-button {
+    display: table;
+    margin-left: 5%;
+}
+
+
+.contact-section
+ .form input,.contact-section
+ .form textarea {
+    width: 92%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.form-header h2 {
+    margin-left: 5%;
+}
+
+.form-header h2:before {width: 100px;}
+
+.contact-section {
+    box-shadow: none;
+}
+
+
+.dreem-text {
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.teer-result-section .col-sm-10.col-sm-offset-1 {
+    width: 100%;
+    margin-left: 0;
+}
+.footer-icon a {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 13px;
+}
+.footer-section {
+	padding: 10px;
+}
+.contact-map-section {
+	padding-bottom: 10px;
+}
+.top-contact {
+    width: 50%;
+    padding-top: 0;
+}
+
+.top-time {
+    width: 50%;
+}
+
+.footer-icon {
+    margin-top: 10px;
+}
+
+}
+/*end 767 px */
+@media all and (max-width: 420px){
+
+.dreem-tab tbody
+ .t-bg .n-text-c {
+    font-size: 13px;
+}
+
+
+.form-header h2 {
+    font-size: 22px;
+}
+
+.form-header h2:before {
+    left: 120px;
+    top: 13px;
+}
+
+.footer-section
+ .col-sm-6 {
+    width: 100%;
+    float: none;
+}
+
+.footer-text {
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.contact-add li {
+    font-size: 14px;
+}
+
+.contact-add span {
+    margin-right: 5px;
+}
+.top-contact {
+    width: 100%;
+    text-align: center;
+}
+
+.top-time {
+    width: 100%;
+  
+}
+
+}
